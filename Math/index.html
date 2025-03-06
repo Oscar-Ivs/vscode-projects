@@ -11,12 +11,12 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
 
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <title>Math Game</title>
 </head>
 
 <body>
     <h1 class="heading">
-        <img class="logo" src="assets/images/logo.png" alt="logo"> Love Maths
+        <img class="logo" src="assets/images/logo.png" alt="logo"> Math game
     </h1>
 
     <div class="game-area">
@@ -48,6 +48,10 @@
     <div class="score-area">
         <p class="scores">Correct Answers <span id="score">0</span></p>
         <p class="scores">Incorrect Answers <span id="incorrect">0</span></p>
+        <div class="range-area">
+            <p>Current Range: <span id="max-range">25</span></p>
+            <button id="change-range" class="btn btn--small btn--yellow">Change Range</button>
+        </div>        
     </div>
 
     <script src="assets/js/script.js"></script>
