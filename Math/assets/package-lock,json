@@ -1,0 +1,29 @@
+{
+    "name": "your-project-name",
+    "version": "1.0.0",
+    "lockfileVersion": 2,
+    "requires": true,
+    "packages": {
+        "": {
+            "name": "your-project-name",
+            "version": "1.0.0",
+            "dependencies": {
+                "example-package": "^1.0.0"
+            }
+        },
+        "node_modules/example-package": {
+            "version": "1.0.0",
+            "resolved": "https://registry.npmjs.org/example-package/-/example-package-1.0.0.tgz",
+            "integrity": "sha512-...",
+            "dev": true
+        }
+    },
+    "dependencies": {
+        "example-package": {
+            "version": "1.0.0",
+            "resolved": "https://registry.npmjs.org/example-package/-/example-package-1.0.0.tgz",
+            "integrity": "sha512-...",
+            "dev": true
+        }
+    }
+}
